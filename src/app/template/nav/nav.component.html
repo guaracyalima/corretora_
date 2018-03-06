@@ -1,0 +1,79 @@
+<!-- Sidebar Menu -->
+<ul class="sidebar-menu">
+  <li class="header">bseg v0.0.1</li>
+  <!-- Optionally, you can add icons to the links -->
+  <li class="active">
+    <a href="#">
+      <i class="fa fa-link"></i>
+      <span>Dashboard</span>
+    </a>
+  </li>
+
+  <li>
+    <a [routerLink]="['/broker']">
+      <i class="fa fa-link"></i>
+      <span>Corretora</span>
+    </a>
+  </li>
+
+  <li>
+    <a href="#">
+      <i class="fa fa-link"></i>
+      <span>Seguradoras</span>
+    </a>
+  </li>
+
+  <li>
+    <a [routerLink]="['/clients']">
+      <i class="fa fa-link"></i>
+      <span>Clientes</span>
+    </a>
+  </li>
+
+  <li class="treeview">
+    <a href="#">
+      <i class="fa fa-link"></i>
+      <span>Apolices</span>
+      <span class="pull-right-container">
+        <i class="fa fa-angle-left pull-right"></i>
+      </span>
+    </a>
+    <ul class="treeview-menu">
+      <li>
+        <a href="#">Seguro auto</a>
+      </li>
+      <li>
+        <a href="#">Seguro vida</a>
+      </li>
+      <li>
+        <a href="#">Responsabilidade Civil (E&O)</a>
+      </li>
+      <li>
+        <a href="#">Fiança locaticia</a>
+      </li>
+    </ul>
+  </li>
+
+
+  <li>
+    <a [routerLink]="['/alerts']">
+      <i class="fa fa-link"></i>
+      <span>Alertas</span>
+    </a>
+  </li>
+  <li>
+    <a [routerLink]="['/chat']">
+      <i class="fa fa-link"></i>
+      <span>Chat</span>
+    </a>
+  </li>
+
+  <li>
+    <a [routerLink]="['/notifications']">
+      <i class="fa fa-link"></i>
+      <span>Push Notifications</span>
+    </a>
+  </li>
+
+</ul>
+<!-- /.sidebar-menu -->
